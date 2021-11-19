@@ -1,9 +1,9 @@
 class Translation(object):
-    START_TEXT = "**I'm a Rename and Convert Bot\nJust send me any media to change file name.\nUse /help command for more details **"
+    START_TEXT = "**Bu bot isim değiştirme ve video dönüştürme botudur.\nDosyanın adını değiştirmek için bir medya göndermeniz yeterli\nDaha fazla ayrıntı için /help komutunu kullanın **"
 ######################
-    HELP_USER = """**>>Send File/Video\n>>Select desired Option\n>>And Done wait for it to process files**"""
-    DOWNLOAD_MSG = "**Downloading **⏬"
-    DOWNLOAD_FAIL_MSG = "**Failed to Download File**❎"
-    UPLOAD_MSG = "**Uploading** ⏫"
-    UPLOAD_FAIL_MSG = "**Failed to Upload File**❎"
-    UPLOAD_DONE_MSG = "**Uploaded Successfully 💡"
+    HELP_USER = """**>>Dosya veya Video gönderin\n>>istenen seçeneği seçin\n>>Dosyanın işlenmesini bekleyin**"""
+    DOWNLOAD_MSG = "**İndiriliyor **⏬"
+    DOWNLOAD_FAIL_MSG = "**Dosya İndirilemedi**❎"
+    UPLOAD_MSG = "**Yükleniyor** ⏫"
+    UPLOAD_FAIL_MSG = "**Dosya Yüklenemedi**❎"
+    UPLOAD_DONE_MSG = "**Başarıyla Yüklendi 💡"
