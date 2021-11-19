@@ -13,7 +13,6 @@ class Config(object):
   TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
   AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
   DOWNLOAD_LOCATION = "./bot/DOWNLOADS"
-  UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
   DB_URI = os.environ.get("DATABASE_URL", "")
   # owner is for log cmd only owner can use (this can be multiple users)
   OWNER_ID = [int(i) for i in os.environ.get("OWNER_ID", "").split(" ")]
