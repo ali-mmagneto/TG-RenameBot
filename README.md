@@ -8,7 +8,7 @@ and Auto detection !!
 ### Installation
 
 #### Easy Way 
-Use [Rename Robot](https://t.me/RenameDuniaBot) 
+Use [Rename Robot](https://t.me/renamevbot) 
 
 #### The Simple Way
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
@@ -25,7 +25,7 @@ python3 bot.py
 
 ### Developer 
 * Telegram [Mrvishal2k2](https://t.me/Mrvishal_2k2) 
-* You can checkout my bots At [BotDunia](https://t.me/BotDunia)
+* You can checkout my bots At [BotDunia](https://t.me/trbotlar)
  
 
 #### Required Variables
