@@ -21,20 +21,20 @@ async def rename_filter(c,m):
   button = []
   try:
     filename = media.file_name
-    text += f"FileName:\n{filename}\n"
+    text += f"Dosya Adı:\n{filename}\n"
   except:
     # some files dont gib name ..
     filename = None 
     
-  text += "Select the desired Option"
-  button.append([InlineKeyboardButton("Rename as File", callback_data="rename_file")])
+  text += "Seçenek Belirleyin"
+  button.append([InlineKeyboardButton("Dosya Olarak Adlandır", callback_data="rename_file")])
   # Thanks to albert for mime_type suggestion 
   if media.mime_type.startswith("video/"):
     ## how the f the other formats can be uploaded as video 
-    button.append([InlineKeyboardButton("Rename as Video",callback_data="rename_video")])
-    button.append([InlineKeyboardButton("Convert as File",callback_data="convert_file")])
-    button.append([InlineKeyboardButton("Convert as Video",callback_data="convert_video")])
-  button.append([InlineKeyboardButton("Cancel ❌",callback_data="cancel")])
+    button.append([InlineKeyboardButton("Video Olarak Adlandır",callback_data="rename_video")])
+    button.append([InlineKeyboardButton("Dosya Olarak Dönüştür",callback_data="convert_file")])
+    button.append([InlineKeyboardButton("Video Olarak Dönüştür",callback_data="convert_video")])
+  button.append([InlineKeyboardButton("Vazgeç ❌",callback_data="cancel")])
  
   markup = InlineKeyboardMarkup(button)
   try:
